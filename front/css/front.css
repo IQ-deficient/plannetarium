@@ -1,0 +1,118 @@
+.body {
+    /*background-color: #ffffff;*/
+}
+
+.card {
+    padding: .5rem;
+    margin-bottom: 2rem;
+    border: 5px outset;
+    background-color: #eef7ff;
+
+}
+
+
+.card > img {
+    margin-bottom: .75rem;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    margin-bottom: 0;
+    background-image: url('../img/header.jpg');
+}
+
+.jumbotron-heading {
+    color: black;
+    text-shadow: 0 0 8px #1AA2D5FF, 2px 2px 8px #1AA2D5FF;
+
+}
+
+#header-text {
+    color: #000000 !important;
+    text-shadow: 0 0 8px #1AA2D5FF, 2px 2px 8px #1AA2D5FF;
+    margin-top: 130px;
+}
+
+.lead {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+.album {
+    padding-top: 4.5rem;
+    background-image: url('../img/proba.jpg');
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: #5cbdff;
+}
+.right-side{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+
+.btn-secondary {
+    border-color: #5cbdff;
+}
+
+.main-Text{
+    color: black;
+    text-shadow: 0 0 8px #1AA2D5FF, 2px 2px 8px #1AA2D5FF;
+    margin-top: -30px;
+}
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    font-weight: bold;
+}
+
+a span{
+    position: relative;
+    z-index: 2;
+}
+
+a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #1AA2D5FF;
+    transition: all .35s;
+}
+
+a:hover{
+    color: #fff;
+
+}
+
+a:hover:after{
+    width: 100%;
+}

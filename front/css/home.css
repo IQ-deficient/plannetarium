@@ -1,0 +1,23 @@
+.body{
+    margin: auto;
+    width: auto;
+    background-image: url('../img/juju.jpg');
+}
+
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+
+tr:nth-child(even) {
+    background-color: #1AA2D5FF;
+}
+.backPhoto{
+    /*padding-top: 4.5rem;*/
+    background-image: url('../img/ajmo.jpg');
+}

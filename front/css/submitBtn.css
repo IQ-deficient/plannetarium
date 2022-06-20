@@ -1,0 +1,15 @@
+.btn-outline-info {
+    color: #1AA2D5FF;
+    border-color: black;
+}
+
+.btn-outline-info:hover {
+
+    background-color: #1AA2D5FF;
+    border-color: black;
+}
+
+.btn-outline-info:disabled {
+    color: #1AA2D5FF;
+    border-color: black;
+}
